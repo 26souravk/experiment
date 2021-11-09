@@ -66,7 +66,7 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('♨️MoviesBazzz♨️', url='https://t.me/joinchat/32maowwC8Y1lNWJl'),
+                        InlineKeyboardButton('♨️MoviesBazzz♨️', url='https://t.me/MoviesBazzz'),
                         InlineKeyboardButton('⚡️Group⚡️', url='https://t.me/MoviesBazzz_Group')
                     ]
                     ]
@@ -99,7 +99,7 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("♨️MoviesBazzz♨️", url='https://t.me/joinchat/32maowwC8Y1lNWJl'),
+                        InlineKeyboardButton("♨️MoviesBazzz♨️", url='https://t.me/MoviesBazzz'),
                         InlineKeyboardButton("Owner", url="https://t.me/Souk26")
                     ],
                     [
@@ -192,7 +192,7 @@ async def delete(bot, message):
 async def bot_info(bot, message):
     buttons = [
         [
-            InlineKeyboardButton('♨️MoviesBazzz♨️', url='https://t.me/joinchat/32maowwC8Y1lNWJl'),
+            InlineKeyboardButton('♨️MoviesBazzz♨️', url='https://t.me/MoviesBazzz'),
             InlineKeyboardButton('⚡️Owner⚡️', url='https://t.me/Souk26')
         ]
         ]

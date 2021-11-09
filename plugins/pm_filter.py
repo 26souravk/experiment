@@ -272,7 +272,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('♨️MoviesBazzz♨️', url='https://t.me/joinchat/32maowwC8Y1lNWJl'),
+                    InlineKeyboardButton('♨️MoviesBazzz♨️', url='https://t.me/MoviesBazzz'),
                     InlineKeyboardButton('⚡️Owner⚡️', url='https://t.me/Souk26')
                 ]
                 ]
@@ -297,7 +297,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('♨️MoviesBazzz♨️', url='https://t.me/joinchat/32maowwC8Y1lNWJl'),
+                        InlineKeyboardButton('♨️MoviesBazzz♨️', url='https://t.me/MoviesBazzz'),
                         InlineKeyboardButton('⚡️Owner⚡️', url='https://t.me/souk26')
                     ]
                     ]
@@ -329,7 +329,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('♨️MoviesBazzz♨️', url='https://t.me/joinchat/32maowwC8Y1lNWJl'),
+                        InlineKeyboardButton('♨️MoviesBazzz♨️', url='https://t.me/MoviesBazzz'),
                         InlineKeyboardButton('⚡️Owner⚡️', url='https://t.me/souk26')
                     ]
                     ]

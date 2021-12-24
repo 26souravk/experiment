@@ -100,10 +100,10 @@ async def start(bot, cmd):
                 [
                     [
                         InlineKeyboardButton("♨️MoviesBazzz♨️", url='https://t.me/MoviesBazzz'),
-                        InlineKeyboardButton("Owner", url="https://t.me/Souk26")
+                        InlineKeyboardButton("⚡️Group⚡️", url="https://t.me/MoviesBazzz_Group")
                     ],
                     [
-                        InlineKeyboardButton("About", callback_data="about")
+                        InlineKeyboardButton("♻️About♻️", callback_data="about")
                     ]
                 ]
             )
@@ -193,7 +193,7 @@ async def bot_info(bot, message):
     buttons = [
         [
             InlineKeyboardButton('♨️MoviesBazzz♨️', url='https://t.me/MoviesBazzz'),
-            InlineKeyboardButton('⚡️Owner⚡️', url='https://t.me/Souk26')
+            InlineKeyboardButton('⚡️Group⚡️', url='https://t.me/MoviesBazzz_Group')
         ]
         ]
     await message.reply(text="<b>Developer : <a href='https://t.me/Souk26'>SOURAV</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n⚡️Owner⚡️ : <a href='https://t.me/Souk26'>@Souk26</a>\nMain Channel : <a href='https://t.me/joinchat/32maowwC8Y1lNWJl'>♨️MoviesBazzz♨️</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)

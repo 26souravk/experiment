@@ -196,4 +196,4 @@ async def bot_info(bot, message):
             InlineKeyboardButton('⚡️Group⚡️', url='https://t.me/MoviesBazzz_Group')
         ]
         ]
-    await message.reply(text="<b>Developer : <a href='https://t.me/Souk26'>SOURAV</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n⚡️Owner⚡️ : <a href='https://t.me/Souk26'>@Souk26</a>\nMain Channel : <a href='https://t.me/joinchat/32maowwC8Y1lNWJl'>♨️MoviesBazzz♨️</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(text="<b>Developer : <a href='https://t.me/MeSouk26'>SOURAV</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n⚡️Owner⚡️ : <a href='https://t.me/MeSouk26'>@Souk26</a>\nMain Channel : <a href='https://t.me/MoviesBazzz'>♨️MoviesBazzz♨️</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
